@@ -6,7 +6,7 @@
                 "equals": "Microsoft.Compute/virtualMachines"
             },
             {
-                "not": 
+                "not": {
                     "anyOf": [
                         {
                             "field": "Microsoft.Compute/virtualMachines/sku.name",
@@ -57,6 +57,7 @@
                             "matchInsensitively": "Standard_??#??_.."
                         }                
                     ]
+                }
             }
         ]
     },
