@@ -13,6 +13,13 @@
                             "in": [
                                 "Standard_A1"
                             ]
+                        },
+                        {
+                            "field": "name",
+                            "in": [
+                                "VM-1",
+                                "VM-2"
+                            ]
                         }
                     ]
                 },
